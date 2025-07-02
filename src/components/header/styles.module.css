@@ -25,7 +25,7 @@
 }
 
 .logo span{
-    color: #ea3140;
+    color: #3084F2;
     padding-left: 2px;    
 }
 
@@ -41,8 +41,9 @@
 
 .loginButton:hover{
     transform: scale(1.08);
-    background-color: #fff;
-    color: #0f0f0f;
+    background-color: #3084F2;
+    color: #fff;
+    border: 1.5px solid #3084F2;
     font-weight: bold;
 }
 
@@ -52,9 +53,20 @@
 }
 
 .link{
-    background-color: #f1f1f1;
-    color: #0f0f0f;
-    padding: 4px 14px;
-    border-radius: 4px;
-    margin: 0 14px;
+    background: transparent;
+    padding: 8px 32px;
+    border-radius: 24px;
+    color: #fff;
+    border: 1.5px solid #fff;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: 10px;
+}
+
+.link:hover{
+        transform: scale(1.08);
+    background-color: #3084F2;
+    color: #fff;
+    border: 1.5px solid #3084F2;
+    font-weight: bold;
 }
