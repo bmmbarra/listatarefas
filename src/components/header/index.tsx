@@ -13,10 +13,12 @@ export function Header(){
                     Tarefas<span>+</span>
                 </h1>
                 </Link>
-            </nav>
-
+                <Link href="/dashboard" className={styles.link}>
+                Meu Painel
+                </Link>
+               </nav>
+             <button className={styles.loginButton}>Acessar</button>
             </section>
         </header>
-
     );
 }

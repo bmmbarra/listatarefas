@@ -11,15 +11,15 @@ export default function Home() {
         <title>Tarefas+ | Organize Suas Tarefas</title>
         </Head>
 
-         <main className={styles.main}>
+    <main className={styles.main}>
+        <div className={styles.logoContent}>
           <Image
-          className={styles.heroImage}
-          alt="logo Tarefas+"
-          src={heroImg}
-          width={480}
-          height={480}
-          priority
+            className={styles.hero}
+            alt="Logo Tarefas+"
+            src={heroImg}
+            priority
           />
+        </div>
 
         <h1 className={styles.title}>
           Sistema para organizar <br/>
