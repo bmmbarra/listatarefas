@@ -1,21 +1,16 @@
-.container{
+.container {
   background-color: #0f0f0f;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: calc(100vh - 76px);
 }
 
-.logoContent{
+.logoContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.main{
+.main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,40 +19,42 @@
   padding: 0 20px;
 }
 
-.heroImage{
+.heroImage {
   max-width: 480px;
   width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-.title{
-  color: #fff;
+.title {
+  color: white;
   text-align: center;
   margin-top: 24px;
   margin-bottom: 16px;
   line-height: 150%;
-}
+  }
 
-.infoContent{
+.infoContent {
+  width: 100%;
+  max-width: 480px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
-  gap: 20px;
+  padding: 0 10px;
 }
 
-.box{
-  background-color: #fafafa;
+.box {
+  background: #fafafa;
   padding: 14px 44px;
   border-radius: 4px;
   transition: transform 0.4s;
-}
+  }
 
-.box:hover{
-  transform: scale(1.08);
-}
+  .box:hover{
+    transform: scale(1.08);
+  }
 
-@media screen and (max-width: 580px){
+  @media screen and (max-width: 580px){
   .heroImage{
     max-width: 80%;
   }
@@ -65,7 +62,6 @@
   .title{
     font-size: 24px;
   }
-
   .infoContent{
     flex-direction: column;
   }
@@ -75,4 +71,5 @@
     margin-bottom: 14px;
     text-align: center;
   }
-}
+    
+  }

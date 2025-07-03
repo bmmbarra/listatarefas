@@ -1,72 +1,104 @@
-.header{
-    width: 100%;
-    height: 76px;
-    background-color: #0f0f0f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header {
+  width: 100%;
+  height: 76px;
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.content{
-    padding: 0 18px;
-    width: 100%;
-    max-width: 1024px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.content a{
-    text-decoration: none;
+.content {
+  padding: 0 18px;
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo{
-    color: #fff;
-    font-size: 32px;
+.content a {
+  text-decoration: none;
 }
 
-.logo span{
-    color: #3084F2;
-    padding-left: 2px;    
+.logo {
+  color: #fff;
+  font-size: 32px;
 }
 
-.loginButton{
-    background: transparent;
-    padding: 8px 32px;
-    border-radius: 24px;
-    color: #fff;
-    border: 1.5px solid #fff;
-    cursor: pointer;
-    transition: all 0.4s;
+.logo span {
+  color: #3084F2;
+  padding-left: 2px;
 }
 
-.loginButton:hover{
-    transform: scale(1.08);
-    background-color: #3084F2;
-    color: #fff;
-    border: 1.5px solid #3084F2;
-    font-weight: bold;
+.loginButton, .userButton {
+  background: transparent;
+  padding: 8px 32px;
+  border-radius: 24px;
+  color: #fff;
+  border: 1.5px solid #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-size: 1rem;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
+.loginButton:hover, .userButton:hover {
+  transform: scale(1.08);
+  background-color: #3084F2;
+  border: 1.5px solid #3084F2;
+  color: #fff;
+  font-weight: bold;
 }
 
-.link{
-    background: transparent;
-    padding: 8px 32px;
-    border-radius: 24px;
-    color: #fff;
-    border: 1.5px solid #fff;
-    cursor: pointer;
-    transition: all 0.4s;
-    margin-left: 10px;
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  background: transparent;
+  padding: 8px 32px;
+  border-radius: 24px;
+  color: #fff;
+  border: 1.5px solid #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-size: 1rem;
+  margin-left: 10px;
 }
 
 .link:hover{
-        transform: scale(1.08);
-    background-color: #3084F2;
-    color: #fff;
-    border: 1.5px solid #3084F2;
-    font-weight: bold;
+  transform: scale(1.08);
+  background-color: #3084F2;
+  border: 1.5px solid #3084F2;
+  color: #fff;
+  font-weight: bold; 
+}
+
+.userMenu {
+  position: relative;
+  display: inline-block;
+  width: max-content;
+}
+
+.logoutMenu {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: #222;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 0.9rem;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+.logoutMenu:hover {
+  background: #3084F2;
 }
