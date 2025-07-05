@@ -1,5 +1,5 @@
 import { GetServerSideProps } from "next";
-import styles from "./styles.module.css";
+import styles from "./dashboard.module.css";
 import Head from "next/head";
 
 import { getSession } from "next-auth/react";

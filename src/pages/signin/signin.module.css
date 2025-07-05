@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0f0f0f;
+    font-family: sans-serif;
+}
+.loginBox{
+    background-color: #a2b5d0;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 20px;
+    transition: transform 0.4s;
+}
+.loginBox:hover{
+    transform: scale(1.08);
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #1c1e21;
+}
+.title span{
+    color: #3084f2;
+    padding-left: 2px;
+}
+.button{
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    border-radius: 20px;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem
+}
+.button:hover{
+    transform: scale(1.08);
+}
+
+.google{
+    background-color: #fff;
+    border-color: #ddd;
+    color: #555
+}
+.google:hover{
+    background-color: #f1f1f1;
+    border-color: #ccc;
+}
+.github{
+    background-color: #24292e;
+    border-color: #24292e;
+    color: #fff;    
+}
+.github:hover{
+    background-color: #333;
+    border-color: #333;
+}
+.providerContainer:not(:last-child){
+    margin-bottom: 1rem;
+}
